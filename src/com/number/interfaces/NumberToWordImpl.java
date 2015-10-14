@@ -43,6 +43,7 @@ public class NumberToWordImpl implements NumberToWord {
 		String ltr = " ";
 		String Str = "Rupees";
 
+		System.out.println("  Zero or Negative number not for conversion ");
 		if (convertno <= 0)
 			System.out.println("Zero or Negative number not for conversion");
 
